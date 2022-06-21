@@ -62,12 +62,13 @@ One should obtain
 2. CANTEMIST vocabulary used by [SINAI research group team](http://ceur-ws.org/Vol-2664/cantemist_paper1.pdf). 
 The file 'cieo-synonyms.csv' is available on request to authors.
 3. MCN data introduced in [the original paper](https://doi.org/10.1016/j.jbi.2019.103132). 
-4. [optional] MedLexSp.zip, which is [available on request](http://www.lllf.uam.es/ESP/nlpmedterm_en.html#deliverables) 
+4. [SemGroups_2018.txt](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/Docs/SemGroups_2018.txt).
+5. [optional] MedLexSp.zip, which is [available on request](http://www.lllf.uam.es/ESP/nlpmedterm_en.html#deliverables) 
 and requires signing papers.
 
 ### Preparing vocabularies
 
-1. Put `MRCONSO.RRF`, `MRSTY.RRF` and [optional] `MedLexSp.zip` into the root of the repository.
+1. Put `MRCONSO.RRF`, `MRSTY.RRF`, `SemGroups_2018.txt` and [optional] `MedLexSp.zip` into the root of the repository.
 2. To generate the English vocabulary used for MCN dataset, run `./vocab_generate_snomedct_all.sh`. This would 
 generate `data/vocabs/SNOMEDCT_US-all-aggregated.txt`, a large file.
 

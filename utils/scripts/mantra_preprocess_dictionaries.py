@@ -1,10 +1,9 @@
 # coding: utf-8
 import os
 import re
-from collections import defaultdict
+from string import punctuation
 
 from tqdm import tqdm
-from string import punctuation
 
 rmv_puncts_regex = re.compile(r'[\s{}]+'.format(re.escape(punctuation)))
 
@@ -18,7 +17,6 @@ def preprocess(s):
 
 
 def merge_dict(in_path, out_path):
-
     with open(in_path, "r", encoding="utf-8") as f:
         data = f.read()
 

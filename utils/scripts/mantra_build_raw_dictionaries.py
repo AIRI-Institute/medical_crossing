@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
     print("Parsing SemGroups...")
 
-    groups = parse_sem_groups("SemGroups.txt")
+    groups = parse_sem_groups("SemGroups_2018.txt")
 
     print("Reading cui-to-type")
 
