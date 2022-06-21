@@ -91,7 +91,7 @@ def filter_dict_by_group(in_path, out_path, target_group):
 if __name__ == "__main__":
 
     import numpy as np
-    languages = ["nl", "eng", "fr", "de", "es"]
+    languages = ["nl", "en", "fr", "de", "es"]
 
     if not np.all([os.path.exists(f"data/vocabs/{l}_dictionary.txt") for l in languages]):
 
@@ -109,8 +109,8 @@ if __name__ == "__main__":
 
         print("Writing dictionaries for languages...")
 
-        if not os.path.exists("data/vocabs/eng_dictionary.txt"):
-            process_language_dict(eng_data, "data/vocabs/eng_dictionary.txt")
+        if not os.path.exists("data/vocabs/en_dictionary.txt"):
+            process_language_dict(eng_data, "data/vocabs/en_dictionary.txt")
 
         if not os.path.exists("data/vocabs/fr_dictionary.txt"):
             process_language_dict(fr_data, "data/vocabs/fr_dictionary.txt")
