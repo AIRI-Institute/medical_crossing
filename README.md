@@ -167,3 +167,20 @@ python3.6 universal_aggregator.py
 * [Mantra GSC](https://files.ifi.uzh.ch/cl/mantra/gsc/GSC-v1.1.zip), [link](http://biosemantics.org/mantra/)
 * [optional] MedLexSp.zip
 * UMLS 2020AA
+
+## Cite
+
+```
+@InProceedings{alekseev-EtAl:2022:LREC,
+  author    = {Alekseev, Anton  and  Miftahutdinov, Zulfat  and  Tutubalina, Elena  and  Shelmanov, Artem  and  Ivanov, Vladimir  and  Kokh, Vladimir  and  Nesterov, Alexander  and  Avetisian, Manvel  and  Chertok, Andrei  and  Nikolenko, Sergey},
+  title     = {Medical Crossing: a Cross-lingual Evaluation of Clinical Entity Linking},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {4212--4220},
+  abstract  = {Medical data annotation requires highly qualified expertise. Despite the efforts devoted to medical entity linking in different languages, available data is very sparse in terms of both data volume and languages. In this work, we establish benchmarks for cross-lingual medical entity linking using clinical reports, clinical guidelines, and medical research papers. We present a test set filtering procedure designed to analyze the ``hard cases'' of entity linking approaching zero-shot cross-lingual transfer learning, evaluate state-of-the-art models, and draw several interesting conclusions based on our evaluation results.},
+  url       = {https://aclanthology.org/2022.lrec-1.447}
+}
+```
